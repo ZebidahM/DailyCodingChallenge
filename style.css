@@ -19,3 +19,41 @@ nav ul li {
     display: inline;
     margin: 0 15px;
 }
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+.property-listing {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.property {
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 250px;
+}
+
+.property img {
+    width: 100%;
+    height: auto;    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input, textarea,button {
+    margin: 10px 0;
+    padding: 10px;
+}
+button {
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
