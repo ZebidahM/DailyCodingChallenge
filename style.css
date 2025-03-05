@@ -1,3 +1,11 @@
+/* style.css - Real Estate Website Stylesheet
+
+This file contains the styles for the real estate website.
+It ensures a responsive and visually appealing design.
+*/
+
+
+/* General Styles*/
 body{
     font-family: Arial, sans-serif;
     margin: 0;
@@ -5,12 +13,14 @@ body{
     text-align: center;
 }
 
+/* Header Section*/
 header {
     background: #333;
     color: white;
     padding: 15px 0;
 }
 
+/*Navigation Menu*/
 nav ul {
     list-style: none;
     padding: 0;
@@ -23,6 +33,8 @@ nav ul li a{
     color: white;
     text-decoration: none;
 }
+
+/*Property Listings*/
 .property-listing {
     display: flex;
     justify-content: center;
@@ -40,6 +52,8 @@ nav ul li a{
     width: 100%;
     height: auto;    
 }
+
+/*Contact Form*/
 form{
     display: flex;
     flex-direction: column;
