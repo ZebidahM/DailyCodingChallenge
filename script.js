@@ -5,6 +5,13 @@ specifically handling the contact form submission.
 */
 
 // Wait for the DOM to fully load before executing scripts
+document.addEventListener("DOMContentLoaded", function() {
+
+    // Get the contact form element
+    const contactForm = document.getElementById("contact-form");
+
+    
+}
 document.getElementById("contact-form").addEventListener("submit", function(event){
     event.preventDefault();
     alert("Thank you for your message! We will get back to you soon.");
