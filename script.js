@@ -10,9 +10,16 @@ document.addEventListener("DOMContentLoaded", function() {
     // Get the contact form element
     const contactForm = document.getElementById("contact-form");
 
-    
-}
-document.getElementById("contact-form").addEventListener("submit", function(event){
-    event.preventDefault();
+    // Add an event listener for form submission
+    contactForm.addEventListener("submit", function(event) {
+    event.preventDefault(); // Prevent page reload
+
+    // Display an alert message to confirm submission
     alert("Thank you for your message! We will get back to you soon.");
+
+    //Reset the form fields after submission
+    this.requestFullscreen();
+
+    });
+
 });
