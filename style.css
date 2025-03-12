@@ -36,7 +36,9 @@ nav ul li a{
     font-weight: 600;
     transition: color 0.3s ease-in-out;
 }
-
+nav ul li a:hover {
+    color: #f39c12;
+}
 /*Property Listings*/
 .property-listing {
     display: flex;
