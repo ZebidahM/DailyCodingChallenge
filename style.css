@@ -58,6 +58,10 @@ nav ul li a:hover {
     height: auto;    
 }
 
+.property:hover {
+    transform: translateY(-5px);
+}
+
 /*Contact Form*/
 form{
     display: flex;
