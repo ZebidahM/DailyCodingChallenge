@@ -21,20 +21,24 @@ body {
 }
 /* Header Section*/
 header {
-    background: #ab4cbb;
+    background: #ba75a9;
     color: rgb(246, 245, 248);
     padding: 15px 0;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
 }
 
 /*Navigation Menu*/
 nav ul {
     list-style: none;
     padding: 0;
+    text-align: center;
 }
 nav ul li {
     display: inline;
     margin: 0 15px;
+    text-align: center;
 }
 nav ul li a{
     color: rgb(246, 247, 248);
