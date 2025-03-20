@@ -17,11 +17,11 @@ body {
     margin: 0;
     padding: 0;
     background-size: 400% 400%;
-    background-color:#99749e;
+    background: linear-gradient(to bottom, #ff9a9e, #fad0c4);
 }
 /* Header Section*/
 header {
-    background: #ba75a9;
+    background: linear-gradient(to bottom, #672b57, #996798);
     color: rgb(246, 245, 248);
     padding: 15px 0;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
