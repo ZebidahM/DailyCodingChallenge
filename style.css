@@ -6,12 +6,6 @@ It ensures a responsive and visually appealing design.
 
 
 /* General Styles*/
-@keyframes gradientAnimation {
-    0% { background: linear-gradient(45deg, #ff9a9e, #fad0c4); }
-    50% { background: linear-gradient(45deg, #a18cd1, #fbc2eb); }
-    100% { background: linear-gradient(45deg, #ff9a9e, #fad0c4); }
-}
-
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -28,11 +22,19 @@ header {
     text-align: center;
 
 }
-
+h1 {
+    border-radius: 10px;
+}
+h2 {
+    text-align: center;
+}
+p{
+    text-align: center;
+}
 /*Navigation Menu*/
 nav ul {
     list-style: none;
-    padding: 0;
+    padding: 20px;
     text-align: center;
 }
 nav ul li {
