@@ -61,11 +61,13 @@ nav ul li a:hover {
     border: 1px solid #ccc;
     padding: 15px;
     width: 250px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0.1);
 }
 
 .property img {
     width: 100%;
-    height: auto;    
+    height: auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0.1);    
 }
 
 .property:hover {
