@@ -17,7 +17,7 @@ body {
     margin: 0;
     padding: 0;
     background-size: 400% 400%;
-    animation: gradientAnimation 10s infinite alternate ease-in-out;
+    background-color:#99749e;
 }
 /* Header Section*/
 header {
@@ -62,6 +62,8 @@ nav ul li a:hover {
     padding: 15px;
     width: 250px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0.1);
+    border-radius: 10px;
+    background-color: antiquewhite;
 }
 
 .property img {
